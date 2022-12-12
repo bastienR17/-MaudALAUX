@@ -42,7 +42,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     width: 25vw;
 }
 #menu-header li{
-    margin: 0 1%;
+    margin: 62px;
+    font-size: 20px;
+    font-weight: 700;
 }
 #menu-header a{
     color: white;
