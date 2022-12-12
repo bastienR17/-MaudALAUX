@@ -1,10 +1,10 @@
 <?php
 /**
- * MaudAlaux functions and definitions
+ * maudalaux functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package MaudAlaux
+ * @package maudalaux
  */
 
 if ( ! defined( '_S_VERSION' ) ) {
@@ -23,7 +23,7 @@ function maudalaux_setup() {
 	/*
 		* Make theme available for translation.
 		* Translations can be filed in the /languages/ directory.
-		* If you're building a theme based on MaudAlaux, use a find and replace
+		* If you're building a theme based on maudalaux, use a find and replace
 		* to change 'maudalaux' to the name of your theme in all the template files.
 		*/
 	load_theme_textdomain( 'maudalaux', get_template_directory() . '/languages' );
@@ -49,7 +49,7 @@ function maudalaux_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'maudalaux' ),
+			'header' => 'header'
 		)
 	);
 

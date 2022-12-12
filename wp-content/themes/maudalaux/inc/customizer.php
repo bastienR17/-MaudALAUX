@@ -1,8 +1,8 @@
 <?php
 /**
- * MaudAlaux Theme Customizer
+ * maudalaux Theme Customizer
  *
- * @package MaudAlaux
+ * @package maudalaux
  */
 
 /**

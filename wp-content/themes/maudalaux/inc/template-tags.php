@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package MaudAlaux
+ * @package maudalaux
  */
 
 if ( ! function_exists( 'maudalaux_posted_on' ) ) :
