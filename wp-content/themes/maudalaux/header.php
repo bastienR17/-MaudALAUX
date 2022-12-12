@@ -25,11 +25,11 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'maudalaux' ); ?></a>
 
-	<header id="masthead" class="site-header w-[100%]">
+	<header id="masthead" class="site-header items-center">
 		<div class="site-branding">
             <div class="flex flex-row items-center ">
 				<div class="ml-10"><?php the_custom_logo();?></div>
-                <h1 class="site-title ml-4"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Maud Alaux</a></h1>
+                <h1 class="site-title ml-4"><a class="text-white hover:text-white" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Maud Alaux</a></h1>
             </div>
 
             <?php

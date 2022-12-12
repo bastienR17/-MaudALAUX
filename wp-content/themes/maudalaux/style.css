@@ -31,6 +31,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 #masthead{
     margin: 0;
+    max-width: 100%;
+    background-color: rgba(0, 68, 69, 1);
 }
 
 #menu-header{
@@ -41,4 +43,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 #menu-header li{
     margin: 0 1%;
+}
+#menu-header a{
+    color: white;
 }
