@@ -25,11 +25,12 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'maudalaux' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header w-[100%]">
 		<div class="site-branding">
-			<?php
-			the_custom_logo();?>
-            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+            <div class="flex flex-row items-center ">
+				<div class="ml-10"><?php the_custom_logo();?></div>
+                <h1 class="site-title ml-4"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Maud Alaux</a></h1>
+            </div>
 
             <?php
 			$maudalaux_description = get_bloginfo( 'description', 'display' );
@@ -40,7 +41,6 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'maudalaux' ); ?></button>
 			<?php
 			wp_nav_menu(
 				array(

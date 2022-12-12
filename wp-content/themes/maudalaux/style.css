@@ -29,12 +29,16 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     box-sizing: border-box;
 }
 
-.menu-toggle{
-    display: none;
+#masthead{
+    margin: 0;
 }
 
-.site-branding{
+#menu-header{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    list-style: none;
+    width: 25vw;
+}
+#menu-header li{
+    margin: 0 1%;
 }
