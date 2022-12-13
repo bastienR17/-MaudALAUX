@@ -11,8 +11,8 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info flex justify-around pt-12">
+	<footer id="colophon" class="site-footer flex flex-col items-center">
+		<div class="site-info flex pt-12 m-auto">
 			<?php
 				wp_nav_menu(
 					array(
@@ -20,7 +20,7 @@
 					)
 				);
 			?>
-			<div class="socials flex gap-7">
+			<div class="socials pl-[12vw] pr-[20vw] flex gap-7">
 				<a href="">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tiktok.png" alt="Logo TikTok">
 				</a>
@@ -43,7 +43,7 @@
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/artidart.png" alt="Logo Artisant d'art">
 			</div>
 		</div>
-		<a class="m-auto text-white hover:text-white" href="#">@Maud Alaux 2022</a>
+		<a class="m-auto text-white hover:text-white text-2xl bressay" href="#">@Maud Alaux 2022</a>
 	</footer>
 </div>
 

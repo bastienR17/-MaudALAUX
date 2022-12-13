@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="https://use.typekit.net/tfx4bcn.css">
 
 	<?php wp_head(); ?>
 </head>
@@ -29,7 +30,7 @@
 		<div class="site-branding">
             <div class="flex flex-row items-center ">
 				<div class="ml-10"><?php the_custom_logo();?></div>
-                <h1 class="site-title ml-4"><a class="text-white hover:text-white" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Maud Alaux</a></h1>
+                <h1 class="site-title ml-4"><a class="text-white hover:text-white bressay" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Maud Alaux</a></h1>
             </div>
 
             <?php

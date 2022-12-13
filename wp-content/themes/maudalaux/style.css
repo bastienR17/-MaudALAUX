@@ -27,13 +27,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     --lightGreen: rgba(2, 76, 76, 1);
     --green: rgba(0, 68, 69, 1);
     --beige: #EBDCD1;
-  }
-
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.bressay{
+    font-family: bressay, serif;
 }
 /*-------------HEADER----------------*/
 #masthead{
@@ -68,13 +70,23 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*------------HEADER------------*/
 
 /*----------FOOTER---------------*/
-
 #colophon{
     background-color: var(--green);
     margin: 0;
     max-width: 100%;
 }
-
-
-
+.menu-footer-container{
+    display: flex;
+    align-items: center;
+}
+#menu-footer li{
+    margin: 4%;
+    font-size: 20px;
+    font-weight: 700;
+    list-style: none;
+    width: 21vw;
+}
+#menu-footer a{
+    color: white;
+}
 /*----------FOOTER---------------*/
