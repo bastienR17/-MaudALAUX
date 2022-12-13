@@ -44,7 +44,7 @@
 			<?php
 			wp_nav_menu(
 				array(
-					'header' => 'header'
+					'theme_location' => 'header'
 				)
 			);
 			?>

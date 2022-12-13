@@ -12,21 +12,40 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'maudalaux' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'maudalaux' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'maudalaux' ), 'maudalaux', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+		<div class="site-info flex justify-around pt-12">
+			<?php
+				wp_nav_menu(
+					array(
+						'theme_location' => 'footer'
+					)
+				);
+			?>
+			<div class="socials flex gap-7">
+				<a href="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tiktok.png" alt="Logo TikTok">
+				</a>
+				<a href="https://www.instagram.com/maudalaux/">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/insta.png" alt="Logo Instagram">
+				</a>
+				<a href="https://www.facebook.com/maudalaux.ebeniste">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.png" alt="Logo Facebook">
+				</a>
+				<a href="https://www.youtube.com/channel/UC9tARdddAEzQcVv9oh8iY3w">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ytb.png" alt="Logo YouTube">
+				</a>
+				<a href="https://www.linkedin.com/in/maud-alaux-a2b5064/">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/linkedin.png" alt="Logo LinkedIn">
+				</a>
+				
+			</div>
+			<div class="expertise flex flex-col items-center gap-7">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/expfeng.png" alt="Logo Ecole de Feng Shui">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/artidart.png" alt="Logo Artisant d'art">
+			</div>
+		</div>
+		<a class="m-auto text-white hover:text-white" href="#">@Maud Alaux 2022</a>
+	</footer>
+</div>
 
 <?php wp_footer(); ?>
 

@@ -1,8 +1,8 @@
 /*!
 Theme Name: maudalaux
 Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
+Author: Angel Hmeli
+Author URI: https://www.instagram.com/a_aine_jai_eu_el/
 Description: Description
 Version: 1.0.0
 Tested up to: 5.4
@@ -23,29 +23,58 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
+:root {
+    --lightGreen: rgba(2, 76, 76, 1);
+    --green: rgba(0, 68, 69, 1);
+    --beige: #EBDCD1;
+  }
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+/*-------------HEADER----------------*/
 #masthead{
     margin: 0;
     max-width: 100%;
-    background-color: rgba(0, 68, 69, 1);
+    background-color: var(--green);
 }
 
 #menu-header{
     display: flex;
     flex-direction: row;
+    align-items: center;
     list-style: none;
-    width: 25vw;
+    width: 35vw;
 }
 #menu-header li{
-    margin: 62px;
+    margin: 4%;
     font-size: 20px;
     font-weight: 700;
 }
 #menu-header a{
     color: white;
 }
+#menu-header #menu-item-92{
+    margin-right: 0;
+}
+#menu-header #menu-item-91{
+    background-color: var(--lightGreen);
+    padding: 10px 20px;
+    border-radius: 18px;
+}
+/*------------HEADER------------*/
+
+/*----------FOOTER---------------*/
+
+#colophon{
+    background-color: var(--green);
+    margin: 0;
+    max-width: 100%;
+}
+
+
+
+/*----------FOOTER---------------*/
