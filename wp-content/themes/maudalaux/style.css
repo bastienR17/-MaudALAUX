@@ -90,3 +90,22 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     color: white;
 }
 /*----------FOOTER---------------*/
+
+/*--------------ACCUEIL--------------*/
+#onglets-accueil{
+    background-color: var(--green);
+    border-radius: 36px;
+    margin: 5% 0;
+}
+#onglets-accueil .elementor-tabs-wrapper{
+    text-align: center;
+    align-items: center;
+}
+#onglets-accueil .elementor-tab-title{
+    padding: 3%;
+}
+#onglets-accueil .elementor-tabs-content-wrapper{
+    border-radius: 0 0 34px 34px;
+}
+
+/*--------------ACCUEIL--------------*/
