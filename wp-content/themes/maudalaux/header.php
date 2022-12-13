@@ -30,7 +30,7 @@
 		<div class="site-branding">
             <div class="flex flex-row items-center ">
 				<div class="ml-10"><?php the_custom_logo();?></div>
-                <h1 class="site-title ml-4"><a class="text-white hover:text-white bressay" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Maud Alaux</a></h1>
+                <h1 class="site-title ml-4"><a class="text-[#EBDCD1] hover:text-[#EBDCD1] font-bold bressay" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Maud Alaux</a></h1>
             </div>
 
             <?php
