@@ -28,7 +28,19 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     --green: rgba(0, 68, 69, 1);
     --beige: #EBDCD1;
 }
-
+::selection{
+    background-color: var(--beige);
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--green);
+}
+::-webkit-scrollbar-track {
+    background-color: var(--beige);
+}
 *{
     padding: 0;
     margin: 0;
@@ -36,6 +48,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 .bressay{
     font-family: bressay, serif;
+}
+h1, h2, h3, h4{
+    font-family: bressay, serif !important;
+}
+p{
+    font-family: myriad-bengali, sans-serif;
 }
 /*-------------HEADER----------------*/
 #masthead{
@@ -130,6 +148,35 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 #text-propos-max{
     display: none;
+    transition: 1s ease-out;
+}
+#text-propos-min{
+    transition: 1s ease-out;
+}
+#lireplus{
+    cursor: pointer;
 }
 
 /*--------------A PROPOS--------------*/
+
+/*--------------CGV - MENTIONS LEGALES--------------*/
+
+#cgv-content h3{
+    color: var(--green);
+    font-weight: 700;
+}
+#cgv-content h4{
+    color: var(--green);
+    font-weight: 500;
+}
+
+#ml-content h2{
+    color: var(--green);
+    font-weight: 700;
+}
+#ml-content h3{
+    color: var(--green);
+    font-weight: 700;
+}
+
+/*--------------CGV - MENTIONS LEGALES--------------*/

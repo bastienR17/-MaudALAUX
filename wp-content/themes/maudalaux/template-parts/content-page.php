@@ -34,13 +34,13 @@
 	const txtMin = document.getElementById("text-propos-min")
 	const txtMax = document.getElementById("text-propos-max")
 
-	lirePlus.addEventListener('mouseover', () => {
+	lirePlus.addEventListener('click', () => {
 		if (txtMax.style.display == "none") {
-			txtMax.style.display == "block"
-			txtMin.style.display == "none"
+			txtMax.style.display = "block"
+			txtMin.style.display = "none"
 		}else{
-			txtMax.style.display == "none"
-			txtMin.style.display == "block"
+			txtMax.style.display = "none"
+			txtMin.style.display = "block"
 		}		
   	})
 </script>
