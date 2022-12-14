@@ -66,8 +66,9 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
     list-style: none;
-    width: 35vw;
+    width: 60vw;
 }
 #menu-header li{
     margin: 4%;
@@ -82,9 +83,21 @@ p{
 }
 #menu-header #menu-item-91{
     background-color: var(--beige);
-    color: black !important;
     padding: 10px 20px;
     border-radius: 18px;
+}
+#menu-header #menu-item-91 a{
+    color: black;
+}
+
+@media screen and (max-width: 1300px) {
+    #masthead{
+        flex-direction: column;
+    }
+    #menu-header{
+        width: 100vw;
+        justify-content: center;
+    }
 }
 /*------------HEADER------------*/
 
@@ -108,6 +121,11 @@ p{
 #menu-footer a{
     color: white;
 }
+@media screen and (max-width: 766px) {
+    #menu-footer li{
+        width: 100%;
+    }
+}
 /*----------FOOTER---------------*/
 
 /*--------------ACCUEIL--------------*/
@@ -125,6 +143,18 @@ p{
 }
 #onglets-accueil .elementor-tabs-content-wrapper{
     border-radius: 0 0 34px 34px;
+}
+.elementor-widget-wrap>.elementor-element{
+    width: 80vw !important;
+}
+.elementor-widget-wrap {
+    justify-content: center;
+}
+@media screen and (max-width: 850px) {
+    .elementor-widget-container{
+        width: 80vw;
+        margin: auto !important;
+    }
 }
 /*--------------ACCUEIL--------------*/
 
@@ -180,3 +210,4 @@ p{
 }
 
 /*--------------CGV - MENTIONS LEGALES--------------*/
+
