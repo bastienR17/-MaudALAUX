@@ -144,9 +144,7 @@ p{
 #onglets-accueil .elementor-tabs-content-wrapper{
     border-radius: 0 0 34px 34px;
 }
-.elementor-widget-wrap>.elementor-element{
-    width: 80vw !important;
-}
+
 .elementor-widget-wrap {
     justify-content: center;
 }
@@ -185,6 +183,14 @@ p{
 }
 #lireplus{
     cursor: pointer;
+}
+@media screen and (max-width: 850px) {
+    .elementor-element-54674e7{
+        text-align: center;
+    }
+    .onglet-valeur-title h4{
+        width: 55vw;
+    }
 }
 
 /*--------------A PROPOS--------------*/
