@@ -107,5 +107,28 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 #onglets-accueil .elementor-tabs-content-wrapper{
     border-radius: 0 0 34px 34px;
 }
-
 /*--------------ACCUEIL--------------*/
+
+/*--------------A PROPOS--------------*/
+.onglet-valeur-title{
+    position: absolute !important;
+    z-index: 1;
+    background: white;
+    padding: 17px;
+    margin: auto;
+    border-radius: 34px;
+    top: -5px;    
+    width: 60% !important;
+    margin: 0 4rem;
+}
+.onglet-valeur-content{
+    background: var(--beige);
+    padding: 9%;
+    padding-top: 15%;
+    border-radius: 34px;
+}
+#text-propos-max{
+    display: none;
+}
+
+/*--------------A PROPOS--------------*/

@@ -28,3 +28,19 @@
 	</div><!-- .entry-content -->
 
 </article><!-- #post-<?php the_ID(); ?> -->
+
+<script>
+	const lirePlus = document.getElementById("lireplus")
+	const txtMin = document.getElementById("text-propos-min")
+	const txtMax = document.getElementById("text-propos-max")
+
+	lirePlus.addEventListener('mouseover', () => {
+		if (txtMax.style.display == "none") {
+			txtMax.style.display == "block"
+			txtMin.style.display == "none"
+		}else{
+			txtMax.style.display == "none"
+			txtMin.style.display == "block"
+		}		
+  	})
+</script>
