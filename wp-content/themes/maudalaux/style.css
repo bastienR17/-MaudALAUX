@@ -77,6 +77,11 @@ p{
     margin: 4%;
     font-size: 20px;
     font-weight: 700;
+    transition: 500ms ease-in-out;
+}
+#menu-header li:hover{
+    scale: 1.2;
+    transition: 500ms ease-in-out;
 }
 #menu-header a{
     color: white;

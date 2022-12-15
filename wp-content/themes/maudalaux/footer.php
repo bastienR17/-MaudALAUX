@@ -21,9 +21,6 @@
 				);
 			?>
 			<div class="socials pl-[12vw] pr-[20vw] flex gap-7 ">
-				<a href="">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tiktok.png" alt="Logo TikTok">
-				</a>
 				<a href="https://www.instagram.com/maudalaux/">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/insta.png" alt="Logo Instagram">
 				</a>
@@ -36,7 +33,9 @@
 				<a href="https://www.linkedin.com/in/maud-alaux-a2b5064/">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/linkedin.png" alt="Logo LinkedIn">
 				</a>
-				
+				<a href="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tiktok.png" alt="Logo TikTok">
+				</a>
 			</div>
 			<div class="expertise flex flex-col items-center gap-7">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/expfeng.png" alt="Logo Ecole de Feng Shui">
